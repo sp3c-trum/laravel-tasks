@@ -1,0 +1,115 @@
+*{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url("img/syntask.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+input{
+    display: block;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 60%;            
+    transition: width 0.5s, height 0.5s, font-size 0.5s;
+}
+
+input:focus{
+    width: 70%;
+    outline: none;
+    height: 105%;
+    font-size: 105%;
+}
+
+form{
+    display: grid;
+    place-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.make{
+    border-radius: 10px;
+    border: none;
+    background-color: #E45826;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    transition: width 0.5s, height 0.5s, font-size 0.5s;
+}
+
+.make:hover{
+    width: 135px;
+    height: 45px;
+    font-size: 112%;
+}
+
+#login-form{
+    background-color: #262524;
+    height: 630px;
+    width: 525px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+    color: white;
+}
+
+.register{
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    width: 150px;
+    height: 40px;
+    border: 2px solid #E45826;
+    cursor: pointer;
+    transition: width 0.5s, height 0.5s, font-size 0.5s;
+    margin-top: 5px;
+}
+
+.register a{
+    color: white;
+}
+
+.register:hover{
+    width: 165px;
+    height: 50px;
+    font-size: 111%;
+}
+
+.registerform{
+    background-color: #262524;
+    height: 480px;
+    width: 520px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+    color: white;
+}
+
+.back{
+    border-radius: 10px;
+    color: black;
+    background-color: #E45826;
+    width: 100px;
+    height: 30px;
+    border: 2px solid #E45826;
+    cursor: pointer;
+    transition: width 0.5s, height 0.5s, font-size 0.5s;
+    margin-top: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.back:hover{
+    background-color: #F56937;
+}
