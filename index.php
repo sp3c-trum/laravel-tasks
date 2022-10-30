@@ -24,7 +24,7 @@
                 </form>
                 <br>Nie masz konta?<br> 
                 <button class="register"><a href="reg.php">Zarejestruj się!</a></button><br>
-                <i>Development Build 0.06.1.12 / AzureSQL Version</i><br>
+                <i>Development Build 0.06.1.13 / AzureSQL Version</i><br>
             </div>
             </div>
     </body>
