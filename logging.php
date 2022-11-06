@@ -1,8 +1,8 @@
 <?php 
 
 $con = mysqli_init();
-mysqli_ssl_set($con,NULL,NULL, "/home/site/wwwroot/ssl/DigiCertGlobalRootCA.crt.pem", NULL, NULL);
-mysqli_real_connect($conn, "msdocs-laravel-mysql-syn-server.mysql.database.azure.com", "yvztuwpien", "3FF78J778P585S76$", "syntaskdb", 3306, MYSQLI_CLIENT_SSL);
+mysqli_ssl_set($con,NULL,NULL, "{path to CA cert}", NULL, NULL);
+mysqli_real_connect($conn, "syntaskdb.mysql.database.azure.com", "pink", "P!ec23dekassojune16", "syntaskdb", 3306, MYSQLI_CLIENT_SSL);
 
 if ( isset ( $_POST['uname'] ) && isset ( $_POST['password'] ) ) {
 
